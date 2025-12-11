@@ -120,7 +120,7 @@
 		"path": "chat.postEphemeral"
 	},
 	"chat.postMessage": {
-		"method": "GET",
+		"method": "POST",
 		"path": "chat.postMessage"
 	},
 	"chat.unfurl": {
@@ -128,7 +128,7 @@
 		"path": "chat.unfurl"
 	},
 	"chat.update": {
-		"method": "GET",
+		"method": "POST",
 		"path": "chat.update"
 	},
 	"conversations.archive": {
@@ -262,6 +262,14 @@
 	"files.upload": {
 		"method": "GET",
 		"path": "files.upload"
+	},
+	"files.getUploadURLExternal": {
+		"method": "GET",
+		"path": "files.getUploadURLExternal"
+	},
+	"files.completeUploadExternal": {
+		"method": "POST",
+		"path": "files.completeUploadExternal"
 	},
 	"groups.archive": {
 		"method": "GET",
@@ -562,5 +570,17 @@
 	"users.profile.set": {
 		"method": "GET",
 		"path": "users.profile.set"
+	},
+	"views.publish": {
+		"method": "POST",
+		"path": "views.publish"
+	},
+	"views.open": {
+		"method": "POST",
+		"path": "views.open"
+	},
+	"views.update": {
+		"method": "GET",
+		"path": "views.update"
 	}
 }
